@@ -14,4 +14,20 @@ namespace ChallengeSimpleDarts
 
         }
     }
+
+    public class Game
+    {
+        private int playerOneScore;
+        private int playerTwoScore;
+        private string winner;
+
+        private void scoreCalculation()
+        {
+            ;
+        }
+        public void displayGameResult()
+        {
+            ;
+        }
+    }
 }
