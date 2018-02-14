@@ -13,21 +13,12 @@ namespace ChallengeSimpleDarts
         {
 
         }
-    }
 
-    public class Game
-    {
-        private int playerOneScore;
-        private int playerTwoScore;
-        private string winner;
-
-        private void scoreCalculation()
+        protected void playButton_Click(object sender, EventArgs e)
         {
-            ;
-        }
-        public void displayGameResult()
-        {
-            ;
+            Game game = new Game("Trey", "Geddy");
+            string result = game.Play();
+            resultLabel.Text = result;
         }
     }
 }
